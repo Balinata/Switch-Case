@@ -5,4 +5,7 @@ switch (true) {
     case (numOrStr === null):
         console.log('ви скасували')
         break
+        case (numOrStr.trim() === ''):
+        console.log('Empty String')
+        break
 }
