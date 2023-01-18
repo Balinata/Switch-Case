@@ -8,4 +8,7 @@ switch (true) {
         case (numOrStr.trim() === ''):
         console.log('Empty String')
         break
+        case isNaN( +numOrStr):
+            console.log(' number is Ba_NaN')
+            break
 }
