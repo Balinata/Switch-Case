@@ -1,0 +1,1 @@
+let numOrStr = prompt('input number or string');
